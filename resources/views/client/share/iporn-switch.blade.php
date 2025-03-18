@@ -1,0 +1,1 @@
+<label class="ipone-switch-label"><input type="checkbox" name="{{$name ?? 'checkbox'}}" @foreach($attributes ?? [] as $attributeName => $attributeValue) {{ "$attributeName = $attributeValue " }} @endforeach {{$checked??false?'checked':'unchecked'}}><span class="ipone-switch-background"></span><span class="ipone-switch-mask"></span></label>

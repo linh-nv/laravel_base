@@ -1,0 +1,53 @@
+<div id="js_edit_logged_password_modal" class="modal fade js-edit-password-modal" style="overflow:hidden;" role="dialog"
+    aria-labelledby="edit_user_modal" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <form novalidate data-action="update_password" data-module="user" class="js-update-password-form"
+                  action="{{route('clients.users.update_password')}}" method="PATCH">
+                <div class="modal-header">
+                    <h4 class="modal-title">{{__("Đổi mật khẩu")}}</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="old_password" class="control-label">{{ __('Mật khẩu hiện tại:') }}</label>
+                                <input type="password" class="form-control" name="old_password" placeholder="Nhập mật khẩu hiện tại">
+                                <div class="invalid-feedback" error-for="old_password">
+                                    {{__('Vui lòng nhập :attribute',['attribute'=>'mật khẩu'])}}</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="new_password" class="control-label">{{ __('Mật khẩu mới:') }}</label>
+                                <input type="password" class="form-control" name="new_password" placeholder="Nhập mật khẩu mới">
+                                <div class="invalid-feedback" error-for="new_password">
+                                    {{__('Vui lòng nhập :attribute',['attribute'=>'mật khẩu'])}}</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="re_new_password" class="control-label">{{ __('Nhập lại mật khẩu mới:') }}</label>
+                                <input type="password" class="form-control" name="re_new_password" placeholder="Nhập lại mật khẩu mới">
+                                <div class="invalid-feedback" error-for="re_new_password">
+                                    {{__('Vui lòng nhập :attribute',['attribute'=>'mật khẩu'])}}</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary waves-effect" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-info waves-effect waves-light"><i class="fa fa-spinner fa-spin hidden"></i>
+                        <i class="fa fa-save main-icon-btn"></i> Thực hiện
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div><!-- /.modal -->

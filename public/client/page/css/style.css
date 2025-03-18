@@ -1,0 +1,102 @@
+.control-label-block {
+    display: block;
+}
+
+.js-remove-parent {
+    position: absolute;
+    background-color: transparent;
+    border: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.5;
+    top: -20px;
+    right: -15px;
+    z-index: 10;
+}
+
+[data-toggle="collapse"] .fa-plus:before {
+    content: "";
+}
+
+[data-toggle="collapse"].collapsed .fa-plus:before {
+    content: "";
+}
+
+.modal-header {
+    padding: 0;
+}
+
+.detail-form th, .detail-form td {
+    border: 0 !important;
+}
+
+.list-month {
+    display: block;
+}
+
+.list-month .month-item:hover, .list-month .month-item.active {
+    border-width: 4px;
+}
+
+.list-month .month-item:hover, .list-month .month-item .month-item-text.active {
+    border-color: #23a076;
+    cursor: pointer;
+    position: relative;
+}
+
+.list-month .month-item {
+    float: left;
+    background-color: #fff;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    text-align: center;
+    height: 60px;
+    position: relative;
+}
+
+.list-month .month-item .month-item-text.active:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    -webkit-font-smoothing: antialiased;
+    content: "";
+    color: #23a076;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size: 16px;
+    z-index: 9;
+}
+
+.bank-select .bank-icon img, .list-month .month-item img {
+    display: block;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 90%;
+    max-height: 80%;
+    width: auto;
+}
+
+.month-item-text {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+}
+
+.month-item-text p {
+    display: table-cell;
+    vertical-align: middle;
+}
+.input-hidden{
+    display:none;
+}
+
+

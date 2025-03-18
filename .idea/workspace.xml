@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="400f3ba1-b62a-47c2-82ef-3009d86947a5" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.3.3/bin/php" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2nT9Pi0yVpFi2cj50f5JJSWLKBx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Volumes/DATA/mine/demo/base-laravel",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/Console/Commands" />
+      <recent name="$PROJECT_DIR$/app/Http/Requests" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PS-242.23339.16" />
+        <option value="bundled-php-predefined-a98d8de5180a-90914f2295cb-com.jetbrains.php.sharedIndexes-PS-242.23339.16" />
+        <option value="php-aws_aws_sdk_php-970fd879c5a4-9b9051cd" />
+        <option value="php-egulias_email_validator-970fd879c5a4-9eb4eccc" />
+        <option value="php-laravel_framework-970fd879c5a4-6bc9d943" />
+        <option value="php-lcobucci_jwt-970fd879c5a4-81ff0973" />
+        <option value="php-maennchen_zipstream_php-970fd879c5a4-2112e5c4" />
+        <option value="php-markbaker_matrix-970fd879c5a4-117e3209" />
+        <option value="php-mtdowling_jmespath_php-970fd879c5a4-40790c43" />
+        <option value="php-nikic_php_parser-970fd879c5a4-ea02b00c" />
+        <option value="php-nunomaduro_collision-970fd879c5a4-462bde00" />
+        <option value="php-nunomaduro_termwind-970fd879c5a4-acb1f1be" />
+        <option value="php-paragonie_random_compat-970fd879c5a4-b58dbecb" />
+        <option value="php-phpoffice_phpspreadsheet-970fd879c5a4-6ac70ee9" />
+        <option value="php-phpseclib_phpseclib-970fd879c5a4-c318b385" />
+        <option value="php-symfony_console-970fd879c5a4-ce05fd45" />
+        <option value="php-symfony_error_handler-970fd879c5a4-c9539298" />
+        <option value="php-symfony_http_kernel-970fd879c5a4-382d1787" />
+        <option value="php-symfony_mailer-970fd879c5a4-3fc99a3c" />
+        <option value="php-symfony_mime-970fd879c5a4-49bf688a" />
+        <option value="php-symfony_psr_http_message_bridge-970fd879c5a4-f3a2bcd7" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="400f3ba1-b62a-47c2-82ef-3009d86947a5" name="Changes" comment="" />
+      <created>1728986177371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728986177371</updated>
+      <workItem from="1728986178404" duration="632000" />
+      <workItem from="1728986813158" duration="656000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
